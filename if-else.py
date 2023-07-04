@@ -6,4 +6,4 @@
 # if a>0:
 #     print("musbat")
 # else:
-#     print("Mandiy")
+#     print("Manfiy")
