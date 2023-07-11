@@ -114,7 +114,7 @@
 #     natija_kuni = (boshlanish_kuni + a - 1) % 7
 #     return haftaning_kunlari[natija_kuni]
 
-# error
+# # error
 # def haftaning_kuni(a):
 # k = int(input("1 dan 365 gacha bo'lgan sonni kiriting="))haftaning_kuni = ["Yakshanba", "Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma", "Shanba"]
 # boshlanish_kuni = 1
@@ -308,3 +308,178 @@
 # print("B kesmani A kesmaga shuncha joylashtira olasiz=",a/b)
 
 # 
+# successful
+# yil = int(input("Yilni kiriting asrga o'tkazib beraman = "))
+# if 2099 >= yil >= 2000:
+#     print("XXI asr")
+# elif 1999 >= yil >= 1900:
+#     print("XX asr")
+# elif 1899 >= yil >=1800:
+#     print("IXX asr")
+# elif 1799 >= yil >=1700:
+#     print("XVIII asr")
+# elif 1699 >= yil >=1600:
+#     print("XVII")
+# elif 1599 >= yil >=1500:
+#     print("XVI")
+# elif 1499 >= yil >=1400:
+#     print("XV asr")
+# elif 1399 >= yil >= 1300:
+#     print("XIV asr")
+# elif 1299 >= yil >=1200:
+#     print("XIII asr")
+# elif 1199 >= yil >=1100:
+#     print("XII asr")
+# elif 1099 >= yil >=1000:
+#     print("XI asr")
+# elif 999 >= yil >=900:
+#     print("X asr")
+# elif 899 >= yil >=800:
+#     print("IX asr")
+# elif 799 >= yil >=700:
+#     print("IIX asr")
+# elif 699 >= yil >=600:
+#     print("VII asr")
+# elif 599 >= yil >=500:
+#     print("VI asr")
+# elif 499 >= yil >=400:
+#     print("V asr")
+# elif 399 >= yil >=300:
+#     print("IV asr")
+# elif 299 >= yil >=200:
+#     print("III asr")
+# elif 199 >= yil >=100:
+#     print("II asr")
+# elif 99 >= yil >= 00:
+#     print("I asr")
+# else:
+#     print("Iltimos 1 dan 2023 gacha bo;lgan sonni kiriting!")
+
+# masala 1
+# successful
+# a = float(input("Son kiriting = "))
+# if a>0:
+#     print(a+1, "musbat")
+# else:
+#     print("Manfiy")
+
+# successful
+# masala 2
+# a = int(input("Son kiriting="))
+# if a>0:
+#     print(a+1, "musbat")
+# elif a<0:
+#     print(a-2, "manfiy")
+
+# masala 3
+# successful
+# a = int(input("Son kiriting="))
+# if a==0:
+#     print(a+10)
+# elif a<0:
+#     print(a-2, "manfiy")
+# elif a>0:
+#     print(a+1, "musbat")
+# else:
+#     print("Xato")
+
+# error
+# masala 4
+# tushunmadim 
+
+# successful
+# masala 6
+# a = int(input("A sonni kiriting="))
+# b = int(input("B sonni kiriting="))
+# if a>b:
+#     print("Muvaffaqiyatli!, A son B sondan katta")
+# elif a<b:
+#     print("Muvaffaqiyatli!, B son A sondan katta")
+
+# successful
+# masala 8
+# a = int(input("A sonni kiriting="))
+# b = int(input("B sonnni kiriting="))
+# if a>b:
+#     print("A son B sondan katta,", "kichkina son esa=",b)
+# elif a<b:
+#     print("B son A sondan katta,", "kichkina son esa=",a)
+
+# successful
+# masala 9
+# a = int(input("A sonni kiriting="))
+# b = int(input("B sonni kiriting="))
+# if a>b:
+#     print("B son A sondan katta = ", b+a)
+# elif a<b:
+#     print("A son B sondan katta = ", a+b)
+
+# error
+# tushunmadim
+# masala 10
+
+# error
+# tushunmadim
+# masala 11
+
+
+
+# def kichigini_aniqlovchi(son1, son2, son3):
+#     kichik = son1 
+#     if son2 < kichik: 
+#         kichik = son2
+#     if son3 < kichik: 
+#         kichik = son3
+#     return kichik
+
+# son1 = int(input("Birinchi sonni kiriting: "))
+# son2 = int(input("Ikkinchi sonni kiriting: "))
+# son3 = int(input("Uchinchi sonni kiriting: "))
+
+# kichik_son = kichigini_aniqlovchi(son1, son2, son3)
+
+# print("Kichik son: ", kichik_son)
+
+# narh= 15000 
+# choy = True
+# salat = False
+# non = True
+# kompot = True
+# assorti = False
+# if choy: 
+#     print("Mijoz choy oldi.")
+#     narh = narh + 3000
+# if salat: 
+#     print("Mijoz salat oldi.")
+#     narh = narh + 5000
+# if non:   
+#     print("Mijoz non oldi.")
+#     narh = narh + 2000
+# if kompot: 
+#     print("Mijoz kompot oldi.")
+#     narh = narh + 5000
+# if assorti:
+#     print("Mijoz assorti oldi.")
+#     narh = narh + 15000
+    
+# print(f"Jami {narh} so'm")
+
+# xizmat_narxi = 10000
+# Pepsi_1_litr = True 
+# Non_2ta = True
+# Osh = True
+# Salat = True
+# if Pepsi_1_litr:
+#     print("10-stol 1.5 litrlik Pepsi oldi")
+#     xizmat_narxi = xizmat_narxi + 5000
+# if Non_2ta:
+#     print("10-stol 2 ta non oldi")
+#     xizmat_narxi = xizmat_narxi - 2000
+# if Osh:
+#     print("10-stol 1 porsiya osh oldi")
+#     xizmat_narxi = xizmat_narxi + 10000
+# if Salat:
+#     print("10-stol salat oldi")
+#     xizmat_narxi = xizmat_narxi - 5000
+
+# print(f"Sizdan {xizmat_narxi} so'm")

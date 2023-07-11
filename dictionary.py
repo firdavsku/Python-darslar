@@ -15,7 +15,7 @@
 #     'vali':'galaxy s9',
 #     'olim':'mi 10 pro',
 #     'orif':'nokia 3310'
-#     }
+#   =--  }
 
 
 # talaba_1 = {'ism':'murod olimov','yosh':23,'t_yil':2000}
@@ -23,7 +23,3 @@
 #  {talaba_1['t_yil']}-yilda tu'gilgan,\
 #  {talaba_1['yosh']} yoshda")
 
-
-# yil = int(input("Yil = "))
-# if 2099 >= yil >= 2000:
-#     print("XXI asr")
