@@ -103,4 +103,3 @@
 # else:
 #     print("Sizga kirish mumkin emas")
 
- 

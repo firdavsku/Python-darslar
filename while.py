@@ -12,3 +12,40 @@
 #     qiymat = input(savol)
 #     if qiymat != 'exit':
 #         print(float(qiymat)**2)
+
+while True:
+    ism = input("Ismingizni kiriting kirish mumkin yoki mumkin emsligini aytaman=")
+    if ism == "Firdavs" or "Asror" or "Ulug'bek":
+        break
+    else:
+        print("Ismni kiriting=")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

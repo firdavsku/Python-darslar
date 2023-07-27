@@ -5,8 +5,8 @@
 # print(car_0['rang'])
 
 
-# talaba_0 = {'ism':'murod olimov','yosh':20,'t_yil':2000}
-# print(talaba_0)
+talaba_0 = {'ism':'murod olimov','yosh':20,'t_yil':2000}
+print(talaba_0['ism'])
 # del talaba_0['yosh'] # yosh degan kalit so'z (va qiymatni) o'chiramiz
 # print(talaba_0)
 

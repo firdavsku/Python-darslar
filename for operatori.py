@@ -107,3 +107,10 @@
 #     if son == 5: # son 5 ga teng bo'lsa kod to'xtaydi
 #         break
 #     print(f"{son} ning kvadrati {son**2} ga teng")
+
+
+# for i in range (1,5,10,15,20):
+#     print(i-1)
+
+for a in range(1,31):
+    print(a)
